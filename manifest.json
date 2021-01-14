@@ -1,0 +1,17 @@
+{
+  "name": "Mark All As Attended",
+  "description": "Mark All students attended.",
+  "version": "1.2",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+      "default_title": "Mark All As Attended",
+      "default_icon": "Check_16x16.png"
+  },
+  "manifest_version": 2
+}
